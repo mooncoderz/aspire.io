@@ -9,12 +9,20 @@
 }
 }
 
+
+
+
+.top-center-before,
+.top-left-before {
+  font-size: 25px;
+}
 .header__navbar ul {
   margin-top: 30px;
 }
 .header__navbar ul a {
   padding: 15px 0 !important;
 }
+
 
 /* Hero Section  */
 .hero h1 {
@@ -32,7 +40,9 @@
 .side-icons {
   transform: translateY(-110px);
 }
-
+.categories .container .item {
+  width: 100%;
+}
 .categories .container .item .icon {
   min-width: 48px;
   height: 48px;
@@ -42,7 +52,7 @@
   font-size: 1.3rem;
 }
 .categories .btn-gradient {
-  padding: 12px 11px;
+  padding: 11px 7px;
 }
 .about .container {
   padding-top: 0;
@@ -54,7 +64,9 @@
   margin-top: 30px;
   width: 100%;
 }
-
+.about .left .items .item {
+  Width: 28%;
+}
 .security h1 {
   font-size: 1.7rem;
 }
@@ -78,4 +90,11 @@
 }
 .security .row .item .btns {
   margin-top: 50px;
+}
+.navigation .navbtn {
+  padding: 11px 11px;
+  margin: 5px 4px;
+}
+.training .container > p {
+  padding: 0;
 }
